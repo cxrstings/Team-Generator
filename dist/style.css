@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(80, 140, 218);
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+.card {
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    max-width: 300px;
+    background-color: rgba(130, 64, 184);
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
+    background-color: #ffffff23;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
